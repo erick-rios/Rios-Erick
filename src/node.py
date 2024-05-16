@@ -1,4 +1,5 @@
 from typing import Optional
+
 class Node:
     def __init__(self, key: int) -> None:
         """Inicializa un nodo.
