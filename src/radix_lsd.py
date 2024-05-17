@@ -116,5 +116,6 @@ class RadixSortLSDHex:
 arr: List[str] = ["3C1A", "7E21", "87", "374D", "1C", "4EA", "1964", "A98F", "2B4", "527",
      "1BC", "5432", "78C", "6ADB", "27D", "4F BC", "B72", "EDAD", "AF",
      "C85A", "1111", "985E", "D503", "E527", "F AB", "AEAE", "9F C"]
+print("Array before sorted: ", arr)
 sorted_arr = RadixSortLSDHex.radix_sort_lsd_hex(arr)
-print("Array ordenado:", sorted_arr)
+print("Array sorted:", sorted_arr)

@@ -33,6 +33,7 @@ class LocalInsertionSort:
 # Ejemplo de uso
 if __name__ == "__main__":
     arr: List[int] = [13, 113, 513, 57, 6]
+    print("Array before being sorted: ", arr)
     local_insertion_sort: LocalInsertionSort = LocalInsertionSort(arr)
     local_insertion_sort.sort()
     local_insertion_sort.display()
