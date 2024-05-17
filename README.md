@@ -1,8 +1,9 @@
-# Nombre del Proyecto
+# PRÁCTICA 3
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Breve descripción del proyecto. Puedes incluir su propósito, qué problemas resuelve o qué funcionalidades proporciona. También podrías mencionar qué tipo de estructuras de datos o algoritmos implementa tu código.
+Práctia que implementa un algoritmo de ordenamiento de cada catgoría vista en clase. Los dos primeros ordenan un arreglo 
+de números enteros, mientras que que Radix ordena una secuencia de cadenas( String ) de longitud k en hexadecimal.
 
 ## Tabla de Contenidos
 
@@ -14,12 +15,10 @@ Breve descripción del proyecto. Puedes incluir su propósito, qué problemas re
 
 ## Instalación
 
-Describe aquí cómo instalar el proyecto y todas las dependencias necesarias. Puedes incluir instrucciones para clonar el repositorio, instalar paquetes adicionales, configurar el entorno virtual, etc.
-
 ```bash
-git clone https://github.com/tu_usuario/tu_proyecto.git
-cd tu_proyecto
-pip install -r requirements.txt
+git clone https://github.com/erick-rios/Rios-Erick.git
+cd Rios-Erick
+
 ```
 
 ## Uso
@@ -34,7 +33,6 @@ from src.binary_tree import BinaryTree
 
 ## Estructura del Proyecto
 
-Explica la estructura de tu proyecto, detallando qué contiene cada directorio y archivo importante.
 
 - `src/`: Directorio principal que contiene el código fuente.
   - `binary_tree.py`: Implementación del árbol binario.
